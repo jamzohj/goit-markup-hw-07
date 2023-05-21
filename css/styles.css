@@ -1496,18 +1496,16 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-  .portfolio {
-    padding-top: 64px;
-    padding-bottom: 96px;
-  }
-  .filter {
-    margin-bottom: 64px;
-  }
-  .collection {
-    row-gap: 72px;
-    column-gap: 24px;
-  }
+.portfolio {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+.filter {
+  margin-bottom: 64px;
+}
+.collection {
+  row-gap: 72px;
+  column-gap: 24px;
 }
 
 @media screen and (min-width: 1158px) {
