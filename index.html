@@ -42,15 +42,79 @@
                         <a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
+
             </address>
+            <button class="modal-menu-open" type="button" data-menu-open>
+                <svg class="mobil-menu-open-icon" width="32" height="22">
+                    <use href="./images/icons.svg#icon-burger-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="modal-menu-close-button" type="button" data-menu-close>
+                    <svg class="modal-menu-close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="menu-open list">
+                    <li class="menu-open-item">
+                        <a class="menu-open-link open link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="menu-open-item">
+                        <a class="menu-open-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="menu-open-item">
+                        <a class="menu-open-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="menu-contacts list">
+                    <li class="menu-contacts-item">
+                        <a class="menu-contacts-link tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="menu-contacts-item">
+                        <a class="menu-contacts-link mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="social-list-open list">
+                    <li class="social-list-open-item">
+                        <a class="social-list-open-link" href="">
+                            <svg class="social-list-open-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-open-item">
+                        <a class="social-list-open-link" href="">
+                            <svg class="social-list-open-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-open-item">
+                        <a class="social-list-open-link" href="">
+                            <svg class="social-list-open-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-open-item">
+                        <a class="social-list-open-link" href="">
+                            <svg class="social-list-open-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <!-- Hero -->
         <section class="hero hero-back">
             <div class="hero container">
-                <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button class="hero button" type="button" data-modal-open>Order Service</button>
+                <h1 class="main-title">Effective Solutions for Your Business</h1>
+                <button class="modal-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <!-- Advantages -->
@@ -140,7 +204,8 @@
                 <h2 class=" team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-card">
-                        <img class="img-team" src="./images/team-img/man.jpg" alt="photo" width="264">
+                        <img class="img-team" srcset="./images/team-img/man-1-x2.jpg 2x" src="./images/team-img/man.jpg"
+                            alt="photo" width="264">
                         <div class="team-text">
                             <h3 class="text-title">Mark Guerrero</h3>
                             <p class="team-parag text">Product Designer</p>
@@ -169,7 +234,8 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img class="img-team" src="./images/team-img/gay-one.jpg" alt="photo" width="264">
+                        <img class="img-team" srcset="./images/team-img/man-2-x2.jpg 2x"
+                            src="./images/team-img/gay-one.jpg" alt="photo" width="264">
                         <div class="team-text">
                             <h3 class="text-title">Tom Ford</h3>
                             <p class="team-parag text">Frontend Developer</p>
@@ -199,7 +265,8 @@
 
                     </li>
                     <li class="team-card">
-                        <img class="img-team" src="./images/team-img/girl.jpg" alt="photo" width="264">
+                        <img class="img-team" srcset="./images/team-img/woman-x2.jpg 2x"
+                            src="./images/team-img/girl.jpg" alt="photo" width="264">
                         <div class="team-text">
                             <h3 class="text-title">Camila Garcia</h3>
                             <p class="team-parag text">Marketing</p>
@@ -229,7 +296,8 @@
 
                     </li>
                     <li class="team-card">
-                        <img class="img-team" src="./images/team-img/gay-two.jpg" alt="photo" width="264">
+                        <img class="img-team" srcset="./images/team-img/man-3-x2.jpg 2x"
+                            src="./images/team-img/gay-two.jpg" alt="photo" width="264">
                         <div class="team-text">
                             <h3 class="text-title">Daniel Wilson</h3>
                             <p class="team-parag text">UI Designer</p>
@@ -429,7 +497,7 @@
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
                     </span>
-                    I accept the terms and conditions of the&nbsp<a class="link-form" href=""> Privacy Policy</a>
+                    "I accept the terms and conditions of the&nbsp;"<a class="link-form" href=""> Privacy Policy</a>
                 </label>
                 <button class="modal-button-form" type="submit">Send
                 </button>
